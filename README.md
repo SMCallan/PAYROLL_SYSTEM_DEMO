@@ -1,4 +1,5 @@
 # Employee Payroll System App Documentation
+This is a copy of an original document, which is held by myself; the original document goes into further detail.
 
 ## Contents
 - [Introduction](#introduction)
@@ -125,9 +126,41 @@ Insights into the development process, client interaction, and methodologies use
 
 ### Repository Schema
 Layout and structure of the project repository.
+<img width="472" alt="image" src="https://github.com/SMCallan/PAYROLL_SYSTEM_DEMO/assets/126923185/d42f1750-2dc9-4ed0-870b-5ce562451196">
 
 ### Source Code
-Presentation of the source code with insights and annotations.
+Available in 'main' and 'Pd_lib'
 
 ### Data Format
-Guidelines for correctly formatting the data file.
+
+
+Data Formatting Guidelines for the Employee Payroll System App
+
+To ensure the Employee Payroll System App functions correctly, it's crucial that your data is formatted properly. The application expects data in a CSV (Comma-Separated Values) format, with specific column headers and data types. Below are the guidelines for formatting your data:
+	Required Columns: Your data file must include the following columns in the exact order listed:
+	EEID (Employee ID): A unique identifier for each employee.
+	Full Name: The employee's full name.
+	Job Title: The employee's job title.
+	Department: The department where the employee works.
+	Business Unit: The business unit to which the employee belongs.
+	Gender: The gender of the employee.
+	Ethnicity: The employee's ethnicity.
+	Age: The age of the employee.
+	Hire Date: The date the employee was hired (format: DD/MM/YYYY).
+	Annual Salary: The employee's annual salary.
+	Bonus %: The percentage of the bonus (if applicable).
+	Country: The country where the employee is located.
+	City: The city where the employee is located.
+	Exit Date: The date the employee exited the company (if applicable, format: DD/MM/YYYY).
+	File Naming and Placement:
+
+	Name your file according to the expected format, which is example.csv.
+	Place the CSV file in the data folder within the project's repository. This is crucial for the application to locate and read the data correctly.
+ 
+	Formatting Tips:
+	Ensure there are no extra spaces before or after the commas in your CSV file.
+	Text fields should be enclosed in quotes if they contain commas.
+	Check for consistent data types in each column (e.g., all entries in the 'Age' column should be numeric).
+
+
+By following these formatting guidelines, you ensure that the Employee Payroll System App can successfully read and process your data, enabling efficient and accurate payroll management.
